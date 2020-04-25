@@ -1,0 +1,97 @@
+
+margin-top: 100px;
+margin-bottom: 100px;
+margin-right: 150px;
+margin-left: 80px;
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  margin-left: 20px;
+}
+.menu {
+  margin-left: 10px;
+}
+.title{
+  font-family: Arial;
+  font-size: 20px;
+}
+
+#input {
+    width: 250px;
+    height: 30px;
+    resize: none;
+}
+
+div {
+  align-content: center;
+  padding-top: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-left: 2px;
+}
+
+h6{
+  font-family: Arial;
+  font-size: 14px;
+}
+
+/* General button style */
+.btn {
+    border: none;
+    font-family: 'Lato';
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.btn:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+/* Button 2 */
+.btn {
+    background: #FE7F9C;
+    color: #fff;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: #DD6B85;
+}
+
+.btn:active {
+    background: #DD6B85;
+    top: 2px;
+}
+
+.btn:before {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-size: 100%;
+    width: 30px;
+}
