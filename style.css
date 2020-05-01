@@ -1,14 +1,55 @@
+head, body {
+  font-family: Arial;
+}
 
-margin-top: 100px;
-margin-bottom: 100px;
-margin-right: 150px;
-margin-left: 80px;
+table {
+    border-collapse: collapse;
+    border-style:dotted;
+
+}
+table, th, td {
+  border: 1px solid #DD6B85;
+
+}
+
+#quantity {
+  width:20px;
+}
+
+
+.parent {
+  text-align: left;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+}
+
+.cell {
+  text-align: left;
+  padding: 10px 10px 20px 10px;
+  margin: 20px 20px 80px 20px;
+}
+
 
 h1 {
   margin-left: auto;
   margin-right: auto;
 }
 
+option {
+  text-size: 94px;
+}
+
+#bodytext01 {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input.check {
+      background-color: #2196F3;
+}
+
+/*Forms*/
 .form {
   margin-left: 20px;
 }
@@ -20,24 +61,8 @@ h1 {
   font-size: 20px;
 }
 
-#input {
-    width: 250px;
-    height: 30px;
-    resize: none;
-}
 
-div {
-  align-content: center;
-  padding-top: 2px;
-  padding-right: 2px;
-  padding-bottom: 2px;
-  padding-left: 2px;
-}
 
-h6{
-  font-family: Arial;
-  font-size: 14px;
-}
 
 /* General button style */
 .btn {
